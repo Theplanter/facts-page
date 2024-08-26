@@ -14,6 +14,7 @@
     padding: 0 30px 0 30px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
 }
 h2{
     font-size: 48px;
@@ -42,7 +43,7 @@ button{
 }
 .header-img{
   align-self: end;
-  margin-top: -20%;
+  margin-top: -25%;
 
 }
 .info{
@@ -55,6 +56,7 @@ button{
     display: flex;
     flex-direction: column;
     width: 900px;
+    padding-bottom: 40px;
 }
 ul,a{
     display: flex;
@@ -65,3 +67,24 @@ ul,a{
 h2,p,button{
  align-self: flex-start;   
 } 
+
+main{
+    width: 100%;
+    text-align: center;
+}
+.mid1{
+    background-color: white;
+    
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+}
+.container2 .info{
+    max-width: 200px;
+}
+.mid1 h2, .container2 p{
+    color: black;
+}
